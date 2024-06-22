@@ -1,0 +1,2 @@
+document.querySelectorAll(".field-text").forEach(function(t){var r,l,a=t.getAttribute("name"),o=t.getAttribute("id"),c=document.createElement("label");c.setAttribute("for",o),c.textContent=e(a).toUpperCase(),c.classList.add("field-label"),t.setAttribute("placeholder",(r=e(a),(l=(l=e(r)).replace(/ ([A-Z])/g,function(e){return e.toLowerCase()})).slice(0,1).toUpperCase()+l.slice(1))),t.before(c)});function e(e){return e.replace(/([a-z])([A-Z])/g,"$1 $2")}
+//# sourceMappingURL=index.48d2f3d4.js.map
